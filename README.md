@@ -1,6 +1,9 @@
 # Code Spelunking Scripts
 Scripts for working with large source trees.
 
+These scripts and the approach to using them are described in the
+following [article](https://queue.acm.org/detail.cfm?id=945136)
+
 These scripts can quickly give an overview of a source tree as well as
 build indices for large code bases, those of a million lines or more,
 which is often untenable within typical IDEs.  In order to use the
