@@ -14,6 +14,20 @@ scripts here you'll need to install:
 
 as well as Python, version 3 or greater.
 
+# NOTE - Updating program variables:
+
+The `code_spelunk.py` program needs to have these four variables
+changed to work on vvarious platforms:
+
+```
+cscope="/opt/homebrew/bin/cscope"
+gtags="/opt/homebrew/bin/gtags"
+htags="/opt/homebrew/bin/htags"
+doxygen="/opt/homebrew/bin/doxygen"
+```
+
+These are set to work with homebrew on macOS at the moment.
+
 # Example Usage
 
 Consider a really large source tree such as the FreeBSD operating system.  In the root of the source tree run the script in
